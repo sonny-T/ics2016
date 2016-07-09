@@ -103,6 +103,7 @@ static int cmd_info(char *args)
 			printf("di    %p  0x%08x\n",&cpu.gpr[7]._16,cpu.gpr[7]._16);
 	
 			printf("eip   %p  0x%08x\n",&cpu.eip,cpu.eip);
+			printf("test test test test\n");
 		}
 		else
 		{

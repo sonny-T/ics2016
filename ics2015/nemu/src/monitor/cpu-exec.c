@@ -78,6 +78,12 @@ void cpu_exec(volatile uint32_t n) {
 
 
 		if(nemu_state != RUNNING) { return; }
+
+#ifdef HAS_DEVICE
+		extern void device_update();
+		device_update();
+#endif
+
 	}
 
 	if(nemu_state == RUNNING) { nemu_state = STOP; }
