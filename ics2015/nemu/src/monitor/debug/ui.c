@@ -106,7 +106,7 @@ static int cmd_info(char *args)
 			printf("test test test test\n");
 			printf("test test test test\n");
 			printf("test test test test\n");
-			printf("test test test test\n");
+			printf("dddddddddddt test\n");
 		}
 		else
 		{

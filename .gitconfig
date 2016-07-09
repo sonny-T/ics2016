@@ -1,3 +1,6 @@
 [core]
 	editor = vim
 	ui = true
+[user]
+	name = sonnylier
+	email = sonny_lier@163.com

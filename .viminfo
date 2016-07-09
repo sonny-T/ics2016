@@ -11,10 +11,10 @@
 ~MSle0~/regsb
 
 # Command Line History (newest to oldest):
+:wq
 :q
 :w
 :Q
-:wq
 :q!
 :!
 :w ! sudo tee %
@@ -70,7 +70,7 @@
 
 # File marks:
 'N  7  0  ~/ics2015/nemu/src/main.c
-'0  109  3  ~/ics2015/nemu/src/monitor/debug/ui.c
+'0  109  21  ~/ics2015/nemu/src/monitor/debug/ui.c
 '1  1  58  ~/ics2015/.git/MERGE_MSG
 '2  23  29  ~/ics2015/nemu/src/monitor/debug/ui.c
 '3  74  0  ~/ics2015/Makefile
@@ -82,7 +82,7 @@
 '9  1  5  ~/ics2015/nemu/src/monitor/cpu-exec.c
 
 # Jumplist (newest first):
--'  109  3  ~/ics2015/nemu/src/monitor/debug/ui.c
+-'  109  21  ~/ics2015/nemu/src/monitor/debug/ui.c
 -'  1  0  ~/ics2015/nemu/src/monitor/debug/ui.c
 -'  1  58  ~/ics2015/.git/MERGE_MSG
 -'  23  29  ~/ics2015/nemu/src/monitor/debug/ui.c
@@ -179,14 +179,13 @@
 -'  4  10  ~/11.txt
 -'  1  0  ~/11.txt
 -'  6  50  ~/.tmux.conf
--'  1  0  ~/.tmux.conf
 
 # History of marks within files (newest to oldest):
 
 > ~/ics2015/nemu/src/monitor/debug/ui.c
-	"	109	3
-	^	106	3
-	.	109	0
+	"	109	21
+	^	109	22
+	.	109	21
 	+	70	20
 	+	56	42
 	+	62	3
@@ -286,7 +285,7 @@
 	+	105	46
 	+	107	0
 	+	108	0
-	+	109	0
+	+	109	21
 
 > ~/ics2015/.git/MERGE_MSG
 	"	1	58
