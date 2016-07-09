@@ -12,6 +12,7 @@
 
 # Command Line History (newest to oldest):
 :q
+:w
 :Q
 :wq
 :q!
@@ -26,7 +27,6 @@
 :help: w
 :help:w:
 :w!
-:w
 :wq!
 :w !
 
@@ -60,7 +60,7 @@
 
 # Registers:
 ""0	LINE	0
-				printf("%s\n", asm_buf);
+				printf("test test test test\n");
 "1	CHAR	0
 	"
 	
@@ -70,22 +70,23 @@
 
 # File marks:
 'N  7  0  ~/ics2015/nemu/src/main.c
-'0  1  58  ~/ics2015/.git/MERGE_MSG
-'1  23  29  ~/ics2015/nemu/src/monitor/debug/ui.c
-'2  74  0  ~/ics2015/Makefile
-'3  5  0  ~/ics2015/config/Makefile.git
-'4  33  0  ~/ics2015/config/Makefile.build
-'5  97  1  ~/ics2015/nemu/src/monitor/debug/ui.c
-'6  2  4  ~/ics2015/nemu/src/cpu/reg.c
-'7  18  9  ~/ics2015/nemu/src/cpu/reg.c
-'8  1  5  ~/ics2015/nemu/src/monitor/cpu-exec.c
-'9  22  1  ~/main.cpp
+'0  109  3  ~/ics2015/nemu/src/monitor/debug/ui.c
+'1  1  58  ~/ics2015/.git/MERGE_MSG
+'2  23  29  ~/ics2015/nemu/src/monitor/debug/ui.c
+'3  74  0  ~/ics2015/Makefile
+'4  5  0  ~/ics2015/config/Makefile.git
+'5  33  0  ~/ics2015/config/Makefile.build
+'6  97  1  ~/ics2015/nemu/src/monitor/debug/ui.c
+'7  2  4  ~/ics2015/nemu/src/cpu/reg.c
+'8  18  9  ~/ics2015/nemu/src/cpu/reg.c
+'9  1  5  ~/ics2015/nemu/src/monitor/cpu-exec.c
 
 # Jumplist (newest first):
+-'  109  3  ~/ics2015/nemu/src/monitor/debug/ui.c
+-'  1  0  ~/ics2015/nemu/src/monitor/debug/ui.c
 -'  1  58  ~/ics2015/.git/MERGE_MSG
 -'  23  29  ~/ics2015/nemu/src/monitor/debug/ui.c
 -'  21  1  ~/ics2015/nemu/src/monitor/debug/ui.c
--'  1  0  ~/ics2015/nemu/src/monitor/debug/ui.c
 -'  74  0  ~/ics2015/Makefile
 -'  1  0  ~/ics2015/Makefile
 -'  5  0  ~/ics2015/config/Makefile.git
@@ -179,20 +180,13 @@
 -'  1  0  ~/11.txt
 -'  6  50  ~/.tmux.conf
 -'  1  0  ~/.tmux.conf
--'  1  0  /etc/network/interfaces
 
 # History of marks within files (newest to oldest):
 
-> ~/ics2015/.git/MERGE_MSG
-	"	1	58
-
 > ~/ics2015/nemu/src/monitor/debug/ui.c
-	"	23	29
+	"	109	3
 	^	106	3
-	.	105	46
-	+	73	0
-	+	72	20
-	+	56	6
+	.	109	0
 	+	70	20
 	+	56	42
 	+	62	3
@@ -290,6 +284,12 @@
 	+	102	46
 	+	103	55
 	+	105	46
+	+	107	0
+	+	108	0
+	+	109	0
+
+> ~/ics2015/.git/MERGE_MSG
+	"	1	58
 
 > ~/ics2015/Makefile
 	"	74	0
