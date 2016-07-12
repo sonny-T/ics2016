@@ -653,3 +653,108 @@ make run
 clear
 vim nemu/src/monitor/debug/ui.c 
 tmux
+clear
+
+git add .
+git commit -m "sonny"
+git pull
+git push
+vim nemu/src/monitor/debug/ui.c 
+vim ics2015/nemu/src/monitor/debug/ui.c
+cd ics2015/
+make run
+clear
+git add .
+git commit -m "sonny"
+git pull
+git push
+cd ../
+git add .
+git commit -m "sonny"
+git pull
+git push
+clear
+cd ics2015/
+cd //
+cd ~
+ls
+git add .
+git commit -m "sonny"
+git pull
+git push
+vim ics2015/nemu/src/monitor/debug/ui.c 
+git add .
+git commit -m "sonny"
+git pull
+git push
+git config --global user.name "sonnylier"
+git config --global user.email "sonny_lier@163.com"
+clear
+ping www.baidu.com
+ls
+ping www.baidu.com
+cd ics2015/
+git add .
+git commit -m "sonny"
+git pull
+git push
+git push origin master
+ping www.baidu.com
+sudo poweroff
+cd ics2015/
+make run
+clear
+cd nemu/
+vim src/monitor/debug/ui.c 
+cd ../
+ls
+cd ics2015/
+make clean
+clear
+make run
+cd ../../
+ssh-keygen -t rsa -C "sonny_lier@163.com"
+ls
+ls -l
+ls -a
+cd .ssh/
+ls
+cd ../
+ls
+rf -f main
+sudo rf -f main
+rv -f main
+rm -f main
+ls
+rm -f main.cpp 
+ls
+git init
+git add README.md
+git commit -m "first commit"
+cd ics2015/
+git commit -m "first commit"
+git init
+git add README.md
+git commit -m "first commit"
+cd ../
+git init
+git add ics2015/*
+git add -f ics2015/*
+git commit -m "first commit"
+git remote add origin 
+git remote add origin git@github.com:sonnylier/ics2016.git
+git push -u origin master
+git pull
+git push -u origin master
+git push --help
+git push -f -u origin master
+ls
+git help
+git add .
+git pull
+git commit -m "sonny"
+git pull
+git push
+vim nemu/src/monitor/debug/ui.c 
+clear 
+tmux
