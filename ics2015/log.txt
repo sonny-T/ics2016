@@ -125,4 +125,4 @@
   10029d:   66 8b 94 99 00 20 00 00               movw 0x2000(%ecx,%ebx,4),%dx
   1002a5:   8a b4 99 00 20 00 00                  movb 0x2000(%ecx,%ebx,4),%dh
   1002ac:   b8 00 00 00 00                        movl $0x0,%eax
-  1002b1:   d6                                    nemu trap (eax = 659519291)
+  1002b1:   d6                                    nemu trap (eax = 281213868)

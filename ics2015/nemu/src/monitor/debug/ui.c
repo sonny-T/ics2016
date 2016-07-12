@@ -62,11 +62,40 @@ static struct {
 #define NR_CMD (sizeof(cmd_table) / sizeof(cmd_table[0]))
 static int cmd_x(char *args)
 {
-	char * _x = strtok(args," ");
+	int i = 0;
+	int j = 0;
+	int n = 0;
 
+    int memory = 0 ;
+	int expr_n = 0;
+
+	char * _x = strtok(args," ");
+	char *expr = strtok(NULL," ");
+	if(_x==NULL || expr==NULL)
+	{
+		printf("Invalid input number requst\n");
+	}
+	else
+	{
+		for(i=0;i<strlen(_x);i++)
+		{
+			n = n*10+(*(_x+i)-'0');
+		}
+		expr_n = strtol(expr,NULL,16);
+		for(j=0;j<n;j++)
+		{
+			memory = *(int *)expr_n;
+			printf("0x%08x   0x%08x\n",expr_n,memory);	
+			printf("0x%08x\n",expr_n);	
+			expr_n  = expr_n + 1;
+			
+		}
+	}
+
+	return 0;
 }
 static int cmd_info(char *args)
-{
+{ 
 	char *info_r = strtok(NULL," ");
 	char *r = "r";
 	if(info_r == NULL)

@@ -8,12 +8,13 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/regsb
+~Msle0~/\<p\>
 
 # Command Line History (newest to oldest):
 :wq
-:q
 :w
+:q
+:s
 :Q
 :q!
 :!
@@ -31,6 +32,7 @@
 :w !
 
 # Search String History (newest to oldest):
+? \<p\>
 ?/regsb
 ?/asm
 ?/n_temp
@@ -50,7 +52,6 @@
 ?/END
 ?/NR_CMD
 ?/cmd_c
-?/eip
 
 # Expression History (newest to oldest):
 
@@ -60,7 +61,7 @@
 
 # Registers:
 ""0	LINE	0
-				printf("eip   %p  0x%08x\n",&cpu.eip,cpu.eip);
+			//	printf("0x%08x   0x%08x\n",expr_n,memory);	
 "1	CHAR	0
 	"
 	
@@ -70,27 +71,31 @@
 
 # File marks:
 'N  7  0  ~/ics2015/nemu/src/main.c
-'0  135  0  ~/ics2015/nemu/src/monitor/debug/ui.c
-'1  7  9  ~/main.c
-'2  1  0  ~/main.c
-'3  2  0  ~/main
-'4  6  19  ~/main.c
-'5  2  0  ~/main.c
-'6  114  29  ~/ics2015/nemu/src/monitor/debug/ui.c
-'7  23  29  ~/ics2015/nemu/src/monitor/debug/ui.c
-'8  74  0  ~/ics2015/Makefile
-'9  5  0  ~/ics2015/config/Makefile.git
+'0  88  1  ~/ics2015/nemu/src/monitor/debug/ui.c
+'1  95  9  ~/ics2015/nemu/src/monitor/debug/ui.c
+'2  164  0  ~/ics2015/nemu/src/monitor/debug/ui.c
+'3  7  9  ~/main.c
+'4  1  0  ~/main.c
+'5  2  0  ~/main
+'6  6  19  ~/main.c
+'7  2  0  ~/main.c
+'8  143  29  ~/ics2015/nemu/src/monitor/debug/ui.c
+'9  23  29  ~/ics2015/nemu/src/monitor/debug/ui.c
 
 # Jumplist (newest first):
--'  135  0  ~/ics2015/nemu/src/monitor/debug/ui.c
+-'  88  1  ~/ics2015/nemu/src/monitor/debug/ui.c
+-'  93  27  ~/ics2015/nemu/src/monitor/debug/ui.c
+-'  68  13  ~/ics2015/nemu/src/monitor/debug/ui.c
 -'  1  0  ~/ics2015/nemu/src/monitor/debug/ui.c
+-'  95  9  ~/ics2015/nemu/src/monitor/debug/ui.c
+-'  164  0  ~/ics2015/nemu/src/monitor/debug/ui.c
 -'  7  9  ~/main.c
 -'  1  0  ~/main.c
 -'  2  0  ~/main
 -'  1  0  ~/main
 -'  6  19  ~/main.c
 -'  2  0  ~/main.c
--'  114  29  ~/ics2015/nemu/src/monitor/debug/ui.c
+-'  143  29  ~/ics2015/nemu/src/monitor/debug/ui.c
 -'  23  29  ~/ics2015/nemu/src/monitor/debug/ui.c
 -'  21  1  ~/ics2015/nemu/src/monitor/debug/ui.c
 -'  74  0  ~/ics2015/Makefile
@@ -99,7 +104,7 @@
 -'  1  0  ~/ics2015/config/Makefile.git
 -'  33  0  ~/ics2015/config/Makefile.build
 -'  1  0  ~/ics2015/config/Makefile.build
--'  105  1  ~/ics2015/nemu/src/monitor/debug/ui.c
+-'  134  1  ~/ics2015/nemu/src/monitor/debug/ui.c
 -'  2  4  ~/ics2015/nemu/src/cpu/reg.c
 -'  1  0  ~/ics2015/nemu/src/cpu/reg.c
 -'  18  9  ~/ics2015/nemu/src/cpu/reg.c
@@ -141,7 +146,7 @@
 -'  230  12  ~/ics2015/nemu/src/cpu/exec/exec.c
 -'  146  0  ~/ics2015/nemu/src/cpu/exec/exec.c
 -'  61  0  ~/ics2015/nemu/src/monitor/cpu-exec.c
--'  101  8  ~/ics2015/nemu/src/monitor/debug/ui.c
+-'  130  8  ~/ics2015/nemu/src/monitor/debug/ui.c
 -'  5  7  ~/ics2015/nemu/src/monitor/monitor.c
 -'  6  7  ~/ics2015/nemu/src/monitor/monitor.c
 -'  80  0  ~/ics2015/nemu/src/monitor/monitor.c
@@ -175,118 +180,116 @@
 -'  20  1  ~/ics2015/nemu/src/main.c
 -'  11  1  ~/ics2015/nemu/src/main.c
 -'  7  0  ~/ics2015/nemu/src/main.c
--'  20  0  ~/ics2015/nemu/Makefile.part
--'  1  0  ~/ics2015/nemu/Makefile.part
--'  20  31  ~/ics2015/nemu/src/cpu/reg.c
--'  3  0  ~/ics2015/nemu/src/cpu/reg.c
--'  67  77  ~/ics2015/README.md
 
 # History of marks within files (newest to oldest):
 
 > ~/ics2015/nemu/src/monitor/debug/ui.c
-	"	135	0
-	^	135	1
-	.	66	0
-	+	70	1
-	+	71	14
-	+	78	20
-	+	112	26
-	+	80	17
-	+	81	49
-	+	81	54
-	+	85	3
-	+	112	3
-	+	112	42
-	+	112	81
-	+	112	120
-	+	112	159
-	+	112	198
-	+	81	17
-	+	81	53
-	+	82	0
-	+	82	61
-	+	83	0
-	+	84	0
-	+	86	0
-	+	91	0
-	+	96	0
-	+	100	0
-	+	101	0
-	+	104	0
-	+	107	0
-	+	110	0
-	+	92	0
-	+	87	0
-	+	88	0
-	+	89	0
+	"	88	1
+	^	88	2
+	.	88	2
+	+	78	5
+	+	79	2
 	+	93	0
-	+	94	0
-	+	100	3
-	+	100	3
-	+	100	3
-	+	97	0
+	+	80	0
 	+	98	0
-	+	99	0
-	+	101	50
-	+	102	0
-	+	102	63
-	+	104	50
-	+	105	0
-	+	107	50
-	+	108	0
-	+	111	0
-	+	111	64
-	+	112	1
-	+	101	50
-	+	102	0
-	+	100	3
-	+	101	0
-	+	103	0
-	+	106	0
-	+	109	0
-	+	83	20
-	+	82	20
-	+	81	19
-	+	84	63
-	+	85	1
-	+	86	46
-	+	87	55
-	+	88	20
-	+	89	20
-	+	88	12
-	+	89	66
-	+	91	0
-	+	90	0
-	+	91	20
-	+	92	55
+	+	80	6
+	+	65	7
+	+	80	27
+	+	81	3
+	+	83	0
+	+	82	24
+	+	93	3
+	+	65	11
+	+	67	10
+	+	93	6
+	+	68	29
+	+	93	7
+	+	68	14
+	+	93	16
+	+	93	3
+	+	93	47
+	+	93	36
+	+	93	60
+	+	93	70
+	+	93	16
+	+	69	14
+	+	71	0
+	+	68	0
 	+	93	63
-	+	94	67
-	+	95	0
-	+	96	46
-	+	97	55
-	+	98	63
-	+	99	63
-	+	101	46
-	+	102	55
-	+	103	0
-	+	104	49
-	+	107	49
-	+	104	46
-	+	105	55
-	+	107	46
-	+	108	55
-	+	112	0
-	+	110	46
-	+	111	55
-	+	113	46
-	+	114	29
-	+	45	26
-	+	59	11
-	+	59	40
-	+	63	28
-	+	64	1
-	+	65	30
-	+	66	0
+	+	93	46
+	+	93	34
+	+	68	13
+	+	93	27
+	+	68	1
+	+	93	26
+	+	69	11
+	+	93	34
+	+	69	12
+	+	85	4
+	+	65	7
+	+	85	18
+	+	86	3
+	+	92	0
+	+	86	3
+	+	85	2
+	+	86	2
+	+	92	2
+	+	86	10
+	+	70	10
+	+	86	33
+	+	88	63
+	+	65	11
+	+	66	2
+	+	93	16
+	+	93	34
+	+	68	1
+	+	93	4
+	+	85	1
+	+	86	1
+	+	92	1
+	+	66	1
+	+	86	11
+	+	88	50
+	+	84	0
+	+	70	10
+	+	84	29
+	+	86	24
+	+	88	69
+	+	93	39
+	+	93	22
+	+	69	2
+	+	86	26
+	+	87	0
+	+	69	8
+	+	67	10
+	+	87	27
+	+	87	50
+	+	87	0
+	+	88	42
+	+	88	47
+	+	90	0
+	+	90	0
+	+	88	0
+	+	67	5
+	+	69	13
+	+	69	0
+	+	94	0
+	+	74	13
+	+	87	3
+	+	88	4
+	+	91	0
+	+	89	0
+	+	91	2
+	+	89	26
+	+	84	2
+	+	69	3
+	+	84	1
+	+	69	0
+	+	87	2
+	+	88	2
+
+> ~/ics2015/obj/testcase/mov.txt
+	"	21	6
 
 > ~/main.c
 	"	7	9
