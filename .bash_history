@@ -758,3 +758,107 @@ git push
 vim nemu/src/monitor/debug/ui.c 
 clear 
 tmux
+clear 
+ping www.baidu.com
+s
+ls
+vim main.c
+gcc -c main.c 
+gcc -o main main.c 
+ls
+./main 
+gdb main
+clear 
+cd ics2015/
+make run
+clear
+cd ../
+cdls
+ls
+vim main.c 
+gcc -c main.c 
+gcc -o main main.c 
+./main
+gdb main
+vim main
+vim main.c 
+gdb main 
+gcc -g main.c
+l
+ls
+gcc -g main.c
+gcc -o main main.c
+gdb main
+rm -f main.o
+ls
+rm -f main
+ls
+rm -f a.out 
+ls
+gcc main.c -g -Wall -o main
+vim main.c 
+gcc main.c -g -Wall -o main
+gdb main
+cleat
+clear
+cd ics2015/
+make run
+cd ics2015/
+vim nemu/src/monitor/debug/ui.c
+ls
+rm -f main*
+ls
+git add.
+git add .
+git commit -m "dd"
+g
+
+cd ics2015/ 
+make run
+clear
+make run
+man strtol
+make run
+gdb ui
+gdb ui.c
+clear
+gdb ui.c
+clear
+make run
+ls
+vim obj/testcase/mov.txt 
+ls obj/testcase/
+cd ics2015/
+vim nemu/src/monitor/debug/ui.c 
+cd ../
+git add .
+git commit -m "fault"
+git pull
+git push
+d ics2015/
+cd ics2015/
+vim nemu/src/cpu/decode/modrm.co
+vim nemu/src/cpu/decode/modrm.c
+vim nemu/src/monitor/cpu-exec.c 
+vim nemu/src/cpu/exec/exec.c 
+vim nemu/include/debug.h 
+vim nemu/src/cpu/reg.c 
+vim nemu/include/memory/memory.h 
+vim nemu/src/cpu/exec/exec.c 
+vim nemu/src/monitor/cpu-exec.c 
+vim nemu/src/memory/memory.c 
+vim nemu/src/memory/dram.c 
+make run
+make run]
+make run
+tmux
+ping www.baidu.com
+sudo poweroff
+cd ics2015/
+vim nemu/src/monitor/debug/ui.c 
+vim nemu/include/cpu/reg.h 
+vim nemu/include/cpu/reg.h 
+vim nemu/src/cpu/reg.c 
+clear
+tmux
+make run

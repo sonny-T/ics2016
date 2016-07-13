@@ -67,7 +67,7 @@ static int cmd_x(char *args)
 	int n = 0;
 
     int memory = 0 ;
-	int expr_n = 0;
+	swaddr_t expr_n;
 
 	char * _x = strtok(args," ");
 	char *expr = strtok(NULL," ");
@@ -84,9 +84,9 @@ static int cmd_x(char *args)
 		expr_n = strtol(expr,NULL,16);
 		for(j=0;j<n;j++)
 		{
-			memory = *(int *)expr_n;
-			printf("0x%08x   0x%08x\n",expr_n,memory);	
-			printf("0x%08x\n",expr_n);	
+			//memory = *(int *)expr_n;
+			memory = swaddr_read(expr_n,4);
+			printf("0x%08x   0x%08x\n",expr_n,memory);
 			expr_n  = expr_n + 1;
 			
 		}
@@ -96,6 +96,7 @@ static int cmd_x(char *args)
 }
 static int cmd_info(char *args)
 { 
+	swaddr_t memory_value;
 	char *info_r = strtok(NULL," ");
 	char *r = "r";
 	if(info_r == NULL)
@@ -106,8 +107,8 @@ static int cmd_info(char *args)
 	{
 		if((strcmp(info_r,r)) == 0)
 		{
-
-			printf("eax   %p  0x%08x\n",&cpu.eax,cpu.eax);
+			memory_value = swaddr_read(cpu.gpr[0]._16,4);
+			printf("eax  0x%08x  0x%08x\n",cpu.eax,memory_value);
 			printf("ea    %p  0x%08x\n",&cpu.gpr[0]._16,cpu.gpr[0]._16);
 			printf("al    %p  0x%08x\n",&cpu.gpr[0]._8[0],cpu.gpr[0]._8[0]);
 			printf("ah    %p  0x%08x\n",&cpu.gpr[0]._8[1],cpu.gpr[0]._8[1]);
