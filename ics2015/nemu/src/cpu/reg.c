@@ -19,8 +19,7 @@ void reg_test() {
 	for(i = R_EAX; i <= R_EDI; i ++) {
 		sample[i] = rand();
 		reg_l(i) = sample[i];
-		//Log("%08x %08x %08x\n",cpu.eax,cpu.gpr[0]._32,cpu.ax);
-	
+			
 		assert(reg_w(i) == (sample[i] & 0xffff));
 	}
 
@@ -57,15 +56,6 @@ void reg_test() {
 
 	assert(reg_b(R_DH) == ((sample[R_EDX] >> 8) & 0xff));
 	
-//	cpu.eax = sample[R_EAX];
-//	cpu.ecx = sample[R_ECX];
-//	cpu.edx = sample[R_EDX];
-  //  cpu.ebx = sample[R_EBX];
-	//cpu.esp = sample[R_ESP];
-//	cpu.ebp = sample[R_EBP];
-//	cpu.esi = sample[R_ESI];
-//	cpu.edi = sample[R_EDI];
-
 	assert(sample[R_EAX] == cpu.eax);
 	assert(sample[R_ECX] == cpu.ecx);
 	assert(sample[R_EDX] == cpu.edx);
@@ -75,7 +65,6 @@ void reg_test() {
 	assert(sample[R_ESI] == cpu.esi);
 	assert(sample[R_EDI] == cpu.edi);
 
-//	eip_sample = cpu.eip;
 	assert(eip_sample == cpu.eip);
 }
 
