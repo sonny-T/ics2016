@@ -862,3 +862,42 @@ vim nemu/src/cpu/reg.c
 clear
 tmux
 make run
+ping www.baidu.com
+/etc/init.d/networking restart 
+sudo /etc/init.d/networking restart 
+ping www.baidu.com
+sudo ifconfig
+sudo poweroff
+cd ics2015/
+vim nemu/src/cpu/reg.c 
+cd ics2015/
+vim nemu/include/cpu/reg.h 
+cd ics2015/
+make run
+cd ics2015/
+vim nemu/src/cpu/reg.c 
+cd ics2015/
+clear
+make run
+
+make run
+
+make run
+cd ../
+git add .
+git commit -m "ok"
+git pull
+git push
+git add .
+git commit -m "ok"
+git pull
++
+git pull
+git commit -m "ok2"
+git add .
+git commit -m "ok2"
+git pull
+cd ics2015/
+vim nemu/include/cpu/reg.h 
+make run
+vim nemu/include/cpu/reg.h 
