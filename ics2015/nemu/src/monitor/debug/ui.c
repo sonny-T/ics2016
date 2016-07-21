@@ -107,40 +107,48 @@ static int cmd_info(char *args)
 	{
 		if((strcmp(info_r,r)) == 0)
 		{
-			memory_value = swaddr_read(cpu.gpr[0]._16,4);
+			memory_value = swaddr_read(cpu.eax,4);
 			printf("eax  0x%08x  0x%08x\n",cpu.eax,memory_value);
-			printf("ea    %p  0x%08x\n",&cpu.gpr[0]._16,cpu.gpr[0]._16);
-			printf("al    %p  0x%08x\n",&cpu.gpr[0]._8[0],cpu.gpr[0]._8[0]);
-			printf("ah    %p  0x%08x\n",&cpu.gpr[0]._8[1],cpu.gpr[0]._8[1]);
-	
-			printf("ecx   %p  0x%08x\n",&cpu.ecx,cpu.ecx);
-			printf("cx    %p  0x%08x\n",&cpu.gpr[1]._16,cpu.gpr[1]._16);
-			printf("cl    %p  0x%08x\n",&cpu.gpr[1]._8[0],cpu.gpr[1]._8[0]);
-			printf("ch    %p  0x%08x\n",&cpu.gpr[1]._8[1],cpu.gpr[1]._8[1]);
-
-			printf("edx   %p  0x%08x\n",&cpu.edx,cpu.edx);
-			printf("dx    %p  0x%08x\n",&cpu.gpr[2]._16,cpu.gpr[2]._16);
-			printf("dl    %p  0x%08x\n",&cpu.gpr[2]._8[0],cpu.gpr[2]._8[0]);
-			printf("dh    %p  0x%08x\n",&cpu.gpr[2]._8[1],cpu.gpr[2]._8[1]);
-
-			printf("ebx   %p  0x%08x\n",&cpu.ebx,cpu.ebx);
-			printf("bx    %p  0x%08x\n",&cpu.gpr[3]._16,cpu.gpr[3]._16);
-			printf("bl    %p  0x%08x\n",&cpu.gpr[3]._8[0],cpu.gpr[3]._8[0]);
-			printf("bh    %p  0x%08x\n",&cpu.gpr[3]._8[1],cpu.gpr[3]._8[1]);
+			memory_value = swaddr_read(cpu.gpr[0]._16,2);
+			printf("ea  0x%04x  0x%04x\n",cpu.gpr[0]._16,memory_value);
+						
+			memory_value = swaddr_read(cpu.ecx,4);
+			printf("ecx  0x%08x  0x%08x\n",cpu.ecx,memory_value);
+			memory_value = swaddr_read(cpu.gpr[1]._16,2);
+			printf("cx  0x%04x  0x%04x\n",cpu.gpr[1]._16,memory_value);
 			
-			printf("esp   %p  0x%08x\n",&cpu.esp,cpu.esp);
+			memory_value = swaddr_read(cpu.edx,4);
+			printf("edx  0x%08x  0x%08x\n",cpu.edx,memory_value);
+			memory_value = swaddr_read(cpu.gpr[2]._16,2);
+			printf("dx  0x%04x  0x%04x\n",cpu.gpr[2]._16,memory_value);
+
+			memory_value = swaddr_read(cpu.ebx,4);
+			printf("ebx  0x%08x  0x%08x\n",cpu.ebx,memory_value);
+			memory_value = swaddr_read(cpu.gpr[3]._16,2);
+			printf("bx  0x%04x  0x%04x\n",cpu.gpr[3]._16,memory_value);
+				
+		//	memory_value = swaddr_read(cpu.esp,4);
+		//	printf("esp  0x%08x  0x%08x\n",cpu.esp,memory_value);
+		/*	memory_value = swaddr_read(cpu.eax,4);
 			printf("sp    %p  0x%08x\n",&cpu.gpr[4]._16,cpu.gpr[4]._16);
 
+			memory_value = swaddr_read(cpu.eax,4);
 			printf("ebp   %p  0x%08x\n",&cpu.ebp,cpu.ebp);
+			memory_value = swaddr_read(cpu.eax,4);
 			printf("bp    %p  0x%08x\n",&cpu.gpr[5]._16,cpu.gpr[5]._16);
 
+			memory_value = swaddr_read(cpu.eax,4);
 			printf("esi   %p  0x%08x\n",&cpu.esi,cpu.esi);
+			memory_value = swaddr_read(cpu.eax,4);
 			printf("si    %p  0x%08x\n",&cpu.gpr[6]._16,cpu.gpr[6]._16);
 
+			memory_value = swaddr_read(cpu.eax,4);
 			printf("edi   %p  0x%08x\n",&cpu.edi,cpu.edi);
-			printf("di    %p  0x%08x\n",&cpu.gpr[7]._16,cpu.gpr[7]._16);
+			memory_value = swaddr_read(cpu.eax,4);
+			printf("di    %p  0x%08x\n",&cpu.gpr[7]._16,cpu.gpr[7]._16);*/
 	
-			printf("eip   %p  0x%08x\n",&cpu.eip,cpu.eip);
+			memory_value = swaddr_read(cpu.eip,4);
+			printf("eip  0x%08x  0x%08x\n",cpu.eip,memory_value);
 		}
 		else
 		{

@@ -901,3 +901,59 @@ cd ics2015/
 vim nemu/include/cpu/reg.h 
 make run
 vim nemu/include/cpu/reg.h 
+git add .
+git commit -m "11"
+git pull
+git push
+clear
+cd ics2015/
+vim nemu/src/monitor/debug/ui.c 
+tmux
+ping www.baidu.com
+vim nemu/src/monitor/debug/ui.c 
+ls
+vim obj/testcase/mov.txt 
+vim nemu/src/monitor/debug/ui.c 
+vim obj/testcase/mov.txt 
+vim nemu/src/monitor/debug/ui.c 
+make run
+clear
+make run
+make run
+ping www.baidu.com
+ping www.baidu.com -c 4
+sudo ifconfig
+sudo ifconfig eth0
+sudo ifconfig eth1
+ping www.baidu.com -C 4
+ping www.baidu.com -c 4
+sudo poweroff
+cd ics2015/
+ls
+make run 
+ping www.baidu.com -c 4
+sudo poweroff
+cd nemu/src/
+ls
+cd monitor/debug/
+ls
+vim ui.c 
+vim nemu/include/cpu/reg.h 
+git add .
+git commit -c "today"
+git commit -C "today"
+git commit -c "today"
+git commit -c "sonny"
+git push
+cd ../
+git add .
+git commit -c "sonny"
+git push
+ping www.baidu.com
+git add .
+git commit -c "2w"
+git commit -C "2w"
+git commit -C "sonny"
+git push
+ls
+tmux
