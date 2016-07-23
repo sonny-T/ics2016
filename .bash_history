@@ -957,3 +957,439 @@ git commit -C "sonny"
 git push
 ls
 tmux
+cd ics2015/
+make run
+
+clear
+vim nemu/src/monitor/debug/expr.c 
+clear
+tmux
+tmux
+ping www.baidu.com
+ping www.baidu.com -c 4
+sudo ifconfig 
+sudo ifconfig eth0
+sudo ifconfig eth1
+ping www.baidu.com -c 4
+ls
+tar -cjf cscope-15.7.tar.bz2 
+sudo poweroff
+git add .
+git commit -c "721"
+git commit -c "sonny"
+git commit 
+git commit -c
+git commit -C "sonny"
+git commit -C "Sonny"
+git commit -C "Sons"
+git pull
+git push
+git commit -m
+git commit -a 
+git commit -a "dd"
+ls
+git commit -a 
+git commit -a ics2015/obj/nemu/nemu
+git commit -a 
+git status
+git add .
+git commit -m "new"
+git pull
+git push
+cd ics2015/
+vim nemu/src/monitor/debug/ui.c 
+cd ics2015/
+vim nemu/src/monitor/debug/expr.c 
+Plug 'dyng/ctrlsf.vim'
+grep regmatch_t ics2015/nemu/src/*
+grep regmatch_t ics2015/nemu/src/cpu/*
+grep regmatch_t ics2015/nemu/src
+grep regmatch_t ics2015/nemu/src/cpu/
+grep regmatch_t ics2015/nemu/src/cpu/*
+grep regmatch_t ics2015/nemu/src/cpu/exec/*
+grep regmatch_t ics2015/nemu/src/cpu/exec/string/
+grep regmatch_t ics2015/nemu/src/cpu/exec/string/*
+grep 'regmatch_t' ics2015/nemu/ 
+grep 'regmatch_t' ics2015/nemu/src/monitor/debug/expr.c 
+grep 'regmatch_t' ics2015/nemu/src/monitor/debug/*
+grep -l 'regmatch_t' ics2015/nemu/
+grep -l 'regmatch_t' ics2015/nemu/*.c
+grep -l 'regmatch_t' ics2015/nemu/*
+grep -l 'regmatch_t' ics2015/nemu/include/*
+ls
+grep -l 'regmatch_t' ics2015/nemu/include/nemu.h 
+grep 'regmatch_t' ics2015/nemu/include/nemu.h 
+vim ics2015/nemu/include/nemu.h 
+vim ics2015/nemu/include/common.h 
+vim ics2015/nemu/include/nemu.h 
+vim ics2015/nemu/include/cpu/reg.h 
+vim ics2015/nemu/include/nemu.h 
+vim ics2015/nemu/include/common.h 
+vim ics2015/nemu/include/nemu.h 
+vim ics2015/nemu/include/memory/memory.h 
+ls
+cd ~
+ls
+rm -f ~
+ls
+ls -a
+rm -rf ~/~
+ls
+mv grep.vim ~/.viminfo/plugin
+mv grep.vim .viminfo/plugin
+sudo mv grep.vim .viminfo/plugin
+sudo mv grep.vim .vim/plugin
+ls -a
+cd .viminfo
+sudo cd .viminfo
+sudo cd /.viminfo
+ls /etc/vim/
+ls /etc/vim/vimrc
+PluginSearch
+ls
+ls -a
+mv grep.vim ~/.viminfo 
+ls
+ls -a
+ls .viminfo 
+ls .viminfo/
+ls -a .viminfo/
+cd ~/.viminfo
+rm -f ~/.viminfo grep.vim
+ping www.baidu.com 
+ping www.baidu.com -c 4
+cd ics2015/
+vim nemu/src/monitor/debug/ui.c 
+vim nemu/include/cpu/reg.h 
+vim nemu/src/monitor/debug/ui.c 
+ls
+vim Makefile 
+vim nemu/src/monitor/debug/ui.c 
+cd ics2015/
+vim nemu/src/monitor/debug/expr.c 
+sudo install grep.vim
+sudo install apt-get grep.vim
+sudo install grep.vim
+sudo apt-get install grep.vim
+sudo apt-get install grep
+man grep
+vim nemu/src/monitor/debug/expr.c 
+clear
+vim nemu/src/monitor/debug/expr.c 
+cd ics2015/
+make run
+clear
+tmux
+clear
+ping www.baidu.com -c 3
+sudo poweroff
+cd /opt/cscope-15.7/
+make disclean
+make distclean
+sudo make distclean
+./configure --with-flex
+sudo ./configure --with-flex
+sudo make
+sudo apt-get install yacc
+./configure --help
+sudo apt-get install YACC
+sudo apt-get install byacc
+ls
+cd /
+ls
+cd opt/
+ls
+cd ~
+mv cscope-15.7.tar.bz2 /opt/
+sudo mv cscope-15.7.tar.bz2 /opt/
+ls
+cd /opt/
+ls
+tar -xvf cscope-15.7.tar.bz2 
+sudo tar -xvf cscope-15.7.tar.bz2 
+ls
+cd cscope-15.7/
+ls
+./configure 
+sudo ./configure 
+make
+sudo make
+cd ../
+make
+cd cscope-15.7/
+make
+sudo make
+sudo apt-get install Flex
+sudo apt-get install flex
+sudo make
+ckear
+clean
+clear
+sudo make
+
+make
+sudo make
+ls
+vim README 
+vim INSTALL
+tmux
+ping www.baidu.com
+sudo ifconfig eth1
+tmux
+ping www.baidu.com
+sudo poweroff 
+cd /opt/
+ls
+cd cscope-15.7/
+ls
+vim INSTALL
+./configure 
+sudo ./configure 
+make
+sudo make
+sudo apt-get install flex bison
+make
+sudo make
+clear
+sudo make
+sudo ./configure --help
+sudo ./configure - Try
+make distclean
+sudo make distclean
+sudo ./configure --with-flex
+sudo ./configure --with-flex > 111111.txt
+ls
+sudo ./configure --with-flex > ~/111111.txt
+sudo apt-get install pkg-config
+git clone git://anongit
+git clone git://anongit.freedesktop.org/pkg-config
+sudo git clone git://anongit.freedesktop.org/pkg-config
+ls
+cd ~
+ls
+mv pkg-config-0.27.tar.gz /opt/
+sudo mv pkg-config-0.27.tar.gz /opt/
+ls
+cd /opt/
+ls
+tar -xvf pkg-config-0.27.tar.gz 
+sudo tar -xvf pkg-config-0.27.tar.gz 
+ls
+cd pkg-config-0.27/
+ls
+vim README
+sudo ./configure 
+glib
+ls -l /lib/libc.so.6
+rpm -qa|grep glib
+dpkg -l|grep glib
+sudo apt-get install glib
+dpkg -l | grep glib
+dpkg -l|grep glib
+pkg-config --modversion gilb-2.0
+cd ~
+ls
+mv glib-2.44.1.tar.xz /usr/
+sudo mv glib-2.44.1.tar.xz /usr/
+cd /usr/
+ls
+tar xvjf glib-2.44.1.tar.xz
+tar -xvjf glib-2.44.1.tar.xz
+xz -d glib-2.44.1.tar.xz
+sudo xz -d glib-2.44.1.tar.xz
+ls
+sudo xz -d glib-2.44.1.tar.xz
+ls
+tar -xvf glib-2.44.1.tar
+sudo tar -xvf glib-2.44.1.tar
+cd /opt/
+ls
+cd /usr/
+ls
+cd glib-2.44.1/
+./configure 
+cd ../
+wget http
+wget http://www.zlib.net/zlib-1.2.3.tar.gz
+sudo apt-get install zlib
+wget http://www.zlib.net/zlib-1.2.3.tar.gz
+wget http://www.zlib.net/zlib-1.2.3.tar.bz2
+wget http://www.zlib.net/zlib-1.2.8.tar.gz
+ls
+tar zxf zlib-1.2.8.tar.gz 
+tar zxf zlib-1.2.8.tar.gz 
+ls
+tar zxf zlib-1.2.8.tar.gz 
+sudo tar zxf zlib-1.2.8.tar.gz 
+ls
+cd zlib-1.2.8/
+ls
+./configure 
+sudo ./configure 
+make
+sudo make
+ls
+make install
+sudo make install
+cd ../
+ls
+cd glib-2.44.1/
+./configure 
+cd ../ls
+cd ../
+ls
+cd glib-2.44.1/
+./configure 
+cd ../
+ls
+sudo tar zxf pkg-config-0.27.tar.gz 
+ls
+cd pkg-config-0.27/
+ls
+./configure 
+cd ..
+ls
+cd glib-2.44.1/
+ls
+./configure 
+ls
+vim configure
+./configure 
+./configure  --LIBFFI_LIBS
+./configure  --help
+./configure  --with-LIB
+./configure  --with-LIBFFI_LIBS
+vim config.log 
+vim pkg-config
+cd ../
+ls
+cd pkg-config-0.27/
+./configure --with-internel-glib
+./configure --with-internal-glib
+sudo apt-get install gettext
+./configure --with-internal-glib
+make
+make check
+make install
+make install > ~/22.txt
+sudo make install > ~/22.txt
+make install
+sudo make install
+cd ../
+cd /opt/
+cd cscope-15.7/
+./configure 
+sudo ./configure 
+sudo make
+sudo apt-get install libncurses5-dev
+sudo make
+sudo make >33.txt
+sudo make > 33.txt
+sudo make > ~/33.txt
+sudo make > ~/44.txt
+cd ..
+cd /usr/
+ls
+cd glib-2.44.1/
+ls
+./configure 
+sudo apt-get install libffi
+sudo apt-get install libffi-dev
+./configure 
+clear
+tmux
+vim ~/.bashrc
+cd ~
+ls
+mv zlib-1.2.8.tar.gz /usr/
+sudo mv zlib-1.2.8.tar.gz /usr/
+ls
+cd /opt/
+ls
+mv pkg-config-0.27 /usr/
+sudo mv pkg-config-0.27.tar.gz /usr/
+cd /usr/
+cd glib-2.44.1/
+ls
+vim configure
+cd ~
+ls
+vim 22.txt \
+vim 22.txt 
+cd /opt/
+ls
+cd cscope-15.7/
+ls
+vim INSTALL
+cd ~
+ls
+vim 33.txt 
+vim 44.txt 
+cd /
+c ~
+cd ~
+ls
+mv libffi-3.2.1.tar.gz /usr/
+sudo mv libffi-3.2.1.tar.gz /usr/
+cd /usr/
+ls
+tar xvf libffi-3.2.1.tar.gz 
+sudo tar xvf libffi-3.2.1.tar.gz 
+ls
+cd libffi-3.2.1/
+ls
+vim README 
+./configure 
+make
+make install
+sudo make 
+sudo make install
+cd /opt/
+clear
+ls
+cd ../
+rm -rf opt/pkg-config-0.27
+sudo rm -rf opt/pkg-config-0.27
+cd opt/
+ls
+cd cscope-15.7/
+ls
+./configure 
+cd ../
+ls
+sudo mv cscope-15.7.tar.bz2 /usr/
+cd ../
+sudo rm -rf opt/*
+cd /opt/
+ls
+cd /usr/
+ls
+sudo tar xvf cscope-15.7.tar.bz2 
+ls
+cd cscope-15.7/
+ls
+cd ../
+cd cscope-15.7/
+clear
+ls
+./configure 
+sudo ./configure 
+sudo make
+sudo make install
+claer
+clear
+sudo make install
+cd ~
+clear
+vim ~/vimrc
+vim /etc/vim/vimrc
+sudo vim /etc/vim/vimrc
+cd ics2015/
+ls
+cscope -Rbq
+ll cscope.*
+ls cscope.*
+ls -a cscope.*
+cat cscope.*
+:q
+clear

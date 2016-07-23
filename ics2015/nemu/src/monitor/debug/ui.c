@@ -44,6 +44,8 @@ static int cmd_info(char *args);
 
 static int cmd_x(char *args);
 
+static int cmd_p(char *args);
+
 static struct {
 	char *name;
 	char *description;
@@ -56,10 +58,17 @@ static struct {
 	/* TODO: Add more commands */
 	{"si", "Step to execute", cmd_si},
 	{"info","Display information reg",cmd_info},
-	{"x","x 10 0xffffffff scan memory",cmd_x}
+	{"x","x 10 0xffffffff scan memory",cmd_x},
+	{"p","Get EXPR value",cmd_p}
 };
 
 #define NR_CMD (sizeof(cmd_table) / sizeof(cmd_table[0]))
+
+static int cmd_p(char *args)
+{
+
+	return 0;
+}
 static int cmd_x(char *args)
 {
 	int i = 0;
